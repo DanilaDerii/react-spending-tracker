@@ -1,5 +1,11 @@
 Spending Tracker
 
+TeamMembers:
+ 
+    6511753 KAUNG HTET Oo, 
+    6630064 Siva Paoren, 
+    6530154 Danila Derii
+
 A tiny, local‑first spending tracker built with React + Vite.
 You enter expenses in Journal, then see totals and charts in Dashboard. Data lives in the browser via localStorage.
 Features
