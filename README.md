@@ -50,3 +50,6 @@ Usage
         Toggle Daily / Weekly / Monthly to change the trend grouping
 
         Check Category Breakdown to see where money goes
+
+![Journal](./image.png)
+![Dashboard](./image-1.png)
