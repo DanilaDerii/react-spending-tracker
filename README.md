@@ -1,12 +1,52 @@
-# React + Vite
+Spending Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tiny, local‑first spending tracker built with React + Vite.
+You enter expenses in Journal, then see totals and charts in Dashboard. Data lives in the browser via localStorage.
+Features
 
-Currently, two official plugins are available:
+    Journal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+        Add an entry with date, category, and amount
 
-## Expanding the ESLint configuration
+        Create new categories on the fly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+        See a list of recent entries
+
+    Dashboard
+
+        Totals: all‑time and this month
+
+        Trend line grouped by Daily / Weekly / Monthly
+
+        Category breakdown (pie chart)
+
+    Local persistence: everything is saved to localStorage
+    (no backend, no accounts, no servers — just your browser)
+
+Tech Stack
+
+    React (Vite project)
+
+    Recharts for charts
+
+    Tailwind (via PostCSS) for styling (index.css imports)
+
+    localStorage for persistence
+
+    Vite builds to docs/ (good for GH Pages)
+
+Usage
+
+    Journal
+
+        Pick a date, choose a category, enter amount, hit Save Entry
+
+        To add a category: type a name under New Category → Add Category
+
+    Dashboard
+
+        See Total All Time and Total This Month
+
+        Toggle Daily / Weekly / Monthly to change the trend grouping
+
+        Check Category Breakdown to see where money goes
